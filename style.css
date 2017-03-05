@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+:focus {
+  outline: 0;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  height: 100%;
+}
+header, nav, section, article, aside, footer {
+  display: block;
+}
+body {
+  font: 20px/25px "Times New Roman";
+  height: 100%;
+  background: url('images/Main/Background.png');
+}
+a {
+  color: #380b0e;
+  outline: none;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: line-through;
+  color: #003cff;
+}
+p {
+  margin: 0 0 18px
+}
+img {
+  border: none;
+}
+input {
+  vertical-align: middle;
+}
+hr {
+border: none;
+border-bottom: solid 1px #000;
+width: 50%;
+}
+
+.preloaded_img {
+   position: absolute;
+   left: -2000px;
+   top: -2000px;
+}
+
+#enter_body {
+  background: url('./images/Enter/enter_background.jpg')
+}
+
+#enter_body:active {
+  background: url('./images/Enter/enter_background_negative.png')
+}
+
+#enter_content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#enter_ring {
+  width: 658px;height: 658px;position: absolute;top: 50%;left: 50%;margin-left: -329px;margin-top: -329px;background: url('/images/Enter/ohwl.png') no-repeat;
+}
+
+#enter_ring:active .english_choice img {
+  display: none;
+}
+
+#enter_ring:hover .english_choice .positive {
+  display: block;
+}
+
+#enter_ring:active .ceska_volba img {
+  display: none;
+}
+
+#enter_ring:hover .ceska_volba .positive {
+  display: block;
+}
+
+.ceska_volba:hover .negative {
+  display: block;
+}
+
+#enter_ring:active {
+  background: url('/images/Enter/ohwl_negative.png') no-repeat;
+}
+
+#wrapper {
+  width: 100%;
+  min-width: 1000px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+  height: 336px;
+  text-align: center;
+  background: url('images/Head/Background.png');
+}
+
+#header IMG {
+  margin-top: 30px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+  width: 100%;
+  padding: 0 0 100px;
+  height: 1%;
+  position: relative;
+  background: url('images/Main/Background.png');
+}
+#middle:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+#title {
+  width: 100%;
+  height: 63px;
+  clear: both;
+  background: url('images/Title/Background.png');
+  text-align: center;
+}
+#container {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+#content {
+  padding: 0 270px 0 0;
+  color: #4f0c0e;
+  text-align: center;
+  font-size: 1em;
+}
+
+.half_content {
+width: 720px;
+margin: 20px auto;
+margin-right: 0px;
+padding-top: 5px;
+}
+
+.half_content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+
+.post {
+   margin: 45px 0;
+   text-align: left;
+}
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+  float: left;
+  margin-right: -3px;
+  margin-top: 10px;
+  width: 180px;
+  margin-left: -180px;
+  position: relative;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+  margin: -18px auto 0;
+  min-width: 1000px;
+  height: 20px;
+  position: relative;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5px;
+  color: #4f0c0e;
+  font-weight: bold;
+}
+
+/*  .hidden_link {
+    color: #4f0c0e;
+    text-decoration: none;
+  }*/
+
+#language_bar {
+position: absolute;
+right: 7px;
+}
